@@ -1,3 +1,4 @@
+const server = http.createServer((req, res) => 1
 doctype html
 html(lang="jp")
   head
@@ -13,3 +14,4 @@ html(lang="jp")
       input(type="radio", name="favorite", value=secondItem)
       span #{secondItem} 
       button(type="submit") 投稿
+    a(href="/logout") ログアウト
